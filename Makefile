@@ -1,0 +1,5 @@
+main.o: main.cpp
+	g++ -o main main.cpp
+
+clean:
+	rm main.o
